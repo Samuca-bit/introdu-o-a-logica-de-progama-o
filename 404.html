@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introdução a logica de progamação</title>
+    <link rel="shortcut icon" type="image/PNG" href="c:\Users\Samuel\Pictures\Saved Pictures\icone 2.png">
+    <style>
+        body{
+            background-color:rgb(70, 0, 70);
+            max-width: 800px;
+            margin: 0 auto;
+           background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/6789451-resumo-preto-sexta-feira-papel-de-parede-luxo-fundo-modelo-cor-arte-modelo-negocio-escuro-vetor.jpg')
+        }
+        h1{
+           color:pink 
+        }
+        h2{
+            color:magenta
+        }
+        p{
+            font-size: 20px;
+            color:white
+        }
+        td{
+             border: 1px  solid violet;
+             color:pink
+        }
+        h3{
+            color:blueviolet
+        }
+        img{
+            width: 500x;
+            height: 200px
+        }
+        h4{
+            color:rgb(255, 7, 255)
+        }
+        a{
+            font-size: 20px;
+            color:gold
+        }
+        #h03{
+            color:violet
+        }
+        #imgh{
+             width: 500px;
+            height: 200px;
+        }
+        #img2{
+            width:350px;
+            height:350px;
+        }
+        #img3{
+             width:350px;
+            height:350px;
+        }
+        #img4{
+          width:350px;
+            height:350px;  
+        }
+        #flx{
+            width:350px;
+            height:350px;
+        }
+        #h31,#h32,#h34{
+            font-size:30px;
+        }
+        #tb1{
+             width:500px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+   <h1 id="h01"> introdução a logica de progamação</h1>
+   <img src="data:image/jpeg;base64,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">
+   <h2> O que é logica de progamação?</h2>
+   <p> Lógica de programação é o conjunto de técnicas e métodos utilizados para resolver problemas através de sequências de instruções claras e organizadas,
+     que podem ser interpretadas por um computador. É a base para o desenvolvimento de qualquer programa de computador, permitindo que o programador crie soluções eficientes e estruturadas. 
+Em outras palavras, a lógica de programação é a forma de pensar e estruturar a resolução de problemas de forma que um computador possa entender e executar as tarefas desejadas. 
+O que envolve a lógica de programação: 
+   </p>
+   <table id="tb1">
+    <tr>
+        <td>Algoritmos:</td>
+        <td>São sequências de passos para resolver um problema específico. Representam a lógica do programa de forma textual. </td>
+    </tr>
+    <tr>
+        <td>Variáveis:</td>
+        <td>Uma variável é um espaço de armazenamento nomeado na memória do computador. </td>
+    </tr>
+    <tr>   
+       <td>Operadores:</td>
+       <td>Operadores são símbolos que realizam operações em valores ou variáveis.
+</td>
+    </tr>
+    <tr>
+       <td>Funções:</td>
+       <td>Uma função é um bloco de código reutilizável que executa uma tarefa específica.</td>
+    </tr>
+    </table>
+    <h2>Como são escritas as logicas de progamação?</h2>
+
+    <p> A lógica de programação pode ser escrita de diversas formas, incluindo algoritmos, fluxogramas, pseudocódigo e, finalmente, em linguagens de programação.
+         Algoritmos são sequências de passos para resolver um problema, 
+         enquanto fluxogramas usam símbolos para representar visualmente esses passos. 
+         Pseudocódigo é uma forma de descrever o algoritmo de maneira mais próxima da linguagem natural, antes de traduzi-lo para uma 
+         linguagem de programação específica.</p>
+        <h3 id="h31"> algoritmos ex:</h3>
+<img src="https://blogdofisica.wordpress.com/wp-content/uploads/2015/09/vizinhanca1.png"  alt="algoritmos"></img>
+        <h3 id="h32"> fluxogramas ex:</h3>
+<img src="https://pt-static.z-dn.net/files/d69/24c67cc70ee1590e60298d07b729eacb.png" id="flx"
+        h3><h3 id="h34">pseudocodigo ex:</h3>
+<img src="data:ima
+ge/png;base64,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"
+ alt="pseudocodigo"
+
+        h2><h2>O que são linguagens de progamação? </h2>
+        <img src="https://idocode.com.br/wp-content/uploads/2020/05/0-destaque-linguagens-de-programacao-2019.jpg" id="imgh">
+        <p>Linguagens de programação são sistemas formais com regras e sintaxe específicas que permitem aos programadores escrever instruções para que computadores 
+            executem tarefas. Elas atuam como uma ponte entre a linguagem humana 
+            e a linguagem que os computadores entendem (código binário), permitindo a criação de softwares,
+             sites, aplicativos e muito mais.  </p>
+        <h3> algumas linguagens de progamação exemplo:</h3>
+<table>
+    <tr>
+        <td> python </td>
+    </tr>
+    <tr>
+        <td>javaScript </td>
+    </tr>
+    <tr>
+        <td> java</td>
+    </tr>
+    <tr>
+        <td> C#</td>
+    </tr>
+    <tr>
+     <td>C++</td>
+    </tr>
+    <tr>
+        <td> PHP</td>
+    </tr>
+</table>
+              <h2>python</h2>
+    <p>Python é uma linguagem de programação de alto nível, conhecida pela sua sintaxe clara e legibilidade, que a torna fácil de aprender e usar.
+         É uma linguagem versátil, utilizada em diversas áreas como desenvolvimento web, ciência de dados, inteligência artificial e automação. </p>
+     <img src="https://miro.medium.com/v2/resize:fit:1016/1*jWy7p4DmC4xqMT0p6hxAkA.png"
+              h2><h2>javaScript</h2>
+    <p>JavaScript (JS) é uma linguagem de programação leve, interpretada e de primeira classe, amplamente utilizada para criar interatividade e conteúdo dinâmico em páginas web,
+         tanto no lado do cliente (front-end) quanto do servidor (back-end) com o uso do Node.js. 
+         É uma das tecnologias centrais da web, permitindo funcionalidades como animações, formulários interativos, atualização de conteúdo e muito mais. </p>
+     <img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/02/exemplo-else.png">
+              <h2>java </h2>
+    <p>Java é uma linguagem de programação orientada a objetos, multiplataforma e amplamente utilizada, conhecida por sua portabilidade e capacidade de executar em diversas plataformas através da Java Virtual Machine (JVM).
+         É uma linguagem popular no desenvolvimento de aplicações web, sistemas empresariais, aplicativos móveis e muito mais. </p>
+    <img src="https://blog.brq.com/wp-content/uploads/sites/3/2021/10/download.png" id="img2">
+              <h2>C#</h2>
+    <p>C# é uma linguagem de programação orientada a objetos, desenvolvida pela Microsoft, e faz parte da plataforma .NET. É uma linguagem moderna e de código aberto,
+         muito popular para o desenvolvimento de diversos tipos de aplicações, incluindo web, desktop, mobile e jogos.
+          C# se destaca pela sua segurança, facilidade de uso e integração com o ecossistema .NET. </p>
+    <img src="https://programacaopratica.com.br/wp-content/uploads/2020/01/imagem11.png" id="img3"
+              h2><h2>C++</h2>
+    <p>C++ é uma linguagem de programação de propósito geral, criada como uma extensão da linguagem C. Ela suporta múltiplos paradigmas,
+        incluindo programação imperativa, orientada a objetos e genérica. C++ é conhecida por sua eficiência e desempenho, 
+        permitindo um controle detalhado do hardware, o que a torna adequada para aplicações que exigem alta performance. </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Hello_World_C%2B%2B.png"
+              h2><h2>PHP</h2>
+    <p>PHP (PHP: Hypertext Preprocessor) é uma linguagem de script de uso geral, especialmente adequada para o desenvolvimento web,
+         e frequentemente usada para gerar conteúdo dinâmico em páginas web.
+          É uma linguagem interpretada e de código aberto, que pode ser incorporada ao HTML.
+           O PHP é usado principalmente no lado do servidor para processar dados e interagir com bancos de dados, tornando as páginas web mais
+            interativas e personalizadas. </p>
+    <img src="https://qcon-assets-production.s3.amazonaws.com/images/provas/115329/23.png" id="img4">
+    <h3 id="h03">Quer começar a progamar?. Assista a video aulas gratis e sejam bem vindos(a) ao mundo dos algoritimos <a href="https://youtu.be/8mei6uVttho?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"><br>assistir video aula...</br></a></h3>
+       <address>
+        <Escrito por:><a href="https://www.instagram.com/ssl_ksks14?igsh=c2pxaWE1MmNqZGIz">clique aqui:<br>autor:Samuel da Silva Lima<br>
+    </address>
+</body>
+</html>
